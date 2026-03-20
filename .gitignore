@@ -1,0 +1,8 @@
+*.py[cod]
+__pycache__/
+*.swp
+*.bak
+.idea/
+.vscode/
+odoo.conf
+data/
