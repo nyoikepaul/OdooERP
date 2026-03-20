@@ -1,8 +1,7 @@
 {
-    'name': 'M-Pesa Connector Pro',
-    'version': '17.0.1.0.0',
-    'category': 'Accounting/Localisation',
-    'summary': 'Secure M-Pesa STK Push and C2B Kernel for Kenya.',
+    'name': 'M-Pesa Connector Core',
+    'version': '1.0',
+    'category': 'Accounting',
     'author': 'Paul Nyoike',
     'depends': ['account', 'payment'],
     'data': [
