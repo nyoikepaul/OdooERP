@@ -6,3 +6,7 @@ __pycache__/
 .vscode/
 odoo.conf
 data/
+<<<<<<< HEAD
+=======
+*.log
+>>>>>>> e3802bd (chore: initial Odoo repository architecture)
