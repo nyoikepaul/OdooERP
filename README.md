@@ -28,7 +28,8 @@ Point of sale
 <img width="1366" height="687" alt="image" src="https://github.com/user-attachments/assets/8d55e311-7e27-40e8-b418-872da26df7eb" />
 
 Receipt
-<img width="1362" height="690" alt="image" src="https://github.com/user-attachments/assets/4cd44d40-b51c-412c-8a0f-26c06fffdbeb" />
+<img width="1366" height="686" alt="image" src="https://github.com/user-attachments/assets/a8cf2965-e7e8-4b3c-86db-13f4be1719d1" />
+
 
 Sales 
 <img width="1366" height="687" alt="image" src="https://github.com/user-attachments/assets/0f98825c-e0a0-400b-8780-06c3e100d592" />
