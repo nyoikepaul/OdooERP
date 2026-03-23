@@ -4,8 +4,6 @@
 
 I deliver **full-cycle Odoo solutions** — from requirements to live deployment — for real-estate, fintech, retail, and manufacturing in Kenya, Ghana, Uganda & East Africa.
 
-### Live Demo & Screenshots
-(Upload 4-5 screenshots of your modules here — Odoo dashboard, M-Pesa STK push, real-estate property card, agent portal, KRA-ready invoice)
 
 ### Featured Modules
 
