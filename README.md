@@ -41,6 +41,8 @@ I deliver **full-cycle Odoo solutions** — from requirements to live deployment
 - **Tailwind CSS** + **QWeb** for beautiful frontends
 
 ### Quick Start (Local Demo in 60 seconds)
+<img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/470e0340-91cc-4b02-ac1d-edd4f574bfa5" />
+
 
 ```bash
 git clone https://github.com/nyoikepaul/odoo-erp-prowess.git
