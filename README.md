@@ -17,24 +17,12 @@ M-Pesa Payments • KRA eTIMS Real-Time Invoicing • Real Estate CRM • Custom
 - ✅ Theme + scripts for easy deployment
 
 ### Quick Start (Docker)
-```bash
+bash
 git clone https://github.com/nyoikepaul/OdooERP.git
 cd OdooERP
 docker compose up -d
 
-
-### Quick Start (Local Demo in 60 seconds)
-<img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/470e0340-91cc-4b02-ac1d-edd4f574bfa5" />
-<img width="1357" height="609" alt="image" src="https://github.com/user-attachments/assets/23d93c6e-f333-4530-8cca-10f54df5aa17" />
-<img width="1361" height="609" alt="image" src="https://github.com/user-attachments/assets/66557356-420d-4c87-8393-8376b575003d" />
-
-
-
-
-
-
-
-```bash
+bash
 git clone https://github.com/nyoikepaul/odoo-erp-prowess.git
 cd odoo-erp-prowess
 docker compose up -d
