@@ -26,5 +26,6 @@ bash
 git clone https://github.com/nyoikepaul/odoo-erp-prowess.git
 cd odoo-erp-prowess
 docker compose up -d
+<img width="1360" height="687" alt="image" src="https://github.com/user-attachments/assets/33e4724d-b441-4930-bad0-3646e506d71e" />
 
 # Install "Kenya M-Pesa Payment" module
