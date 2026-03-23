@@ -40,5 +40,3 @@ Accounting
 Docker 
 <img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/0a97df41-c0de-4b65-928e-a7a670341a11" />
 
-
-# Install "Kenya M-Pesa Payment" module
