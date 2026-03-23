@@ -1,42 +1,27 @@
-# Odoo ERP Prowess — Paul Nyoike (Nairobi, Kenya)
+# OdooERP - Kenya Mastery Showcase 🚀
 
-**Production-ready Odoo custom modules that African businesses actually use.**
+**Odoo 18 + Full Kenya Localization**  
+M-Pesa Payments • KRA eTIMS Real-Time Invoicing • Real Estate CRM • Custom Workflows
 
-I deliver **full-cycle Odoo solutions** — from requirements to live deployment — for real-estate, fintech, retail, and manufacturing in Kenya, Ghana, Uganda & East Africa.
+![Odoo](https://img.shields.io/badge/Odoo-18.0-4A4A4A?style=for-the-badge&logo=odoo) 
+![M-Pesa](https://img.shields.io/badge/M--Pesa-Daraja-00A651?style=for-the-badge) 
+![KRA eTIMS](https://img.shields.io/badge/KRA-eTIMS-FF6600?style=for-the-badge) 
+![Kenya](https://img.shields.io/badge/Made_for_Kenya-00A651?style=for-the-badge)
 
+### Features
+- ✅ **M-Pesa Daraja Integration** (STK Push, C2B, callbacks) via `kenya_mpesa_acquirer`
+- ✅ **KRA eTIMS OSCU** – Native real-time invoice submission (official Odoo KE LTD integrator)
+- ✅ Custom modules: `mpesa_connector`, `mpesa_integration`, Real Estate CRM
+- ✅ Kenya taxes, PIN validation, VAT, withholding tax
+- ✅ Docker-first setup (Odoo 18 + PostgreSQL)
+- ✅ Theme + scripts for easy deployment
 
-### Featured Modules
+### Quick Start (Docker)
+```bash
+git clone https://github.com/nyoikepaul/OdooERP.git
+cd OdooERP
+docker compose up -d
 
-#### 1. Ghana Real Estate ERP (Odoo 16) — [View Code](https://github.com/nyoikepaul/Odoo) (already live)
-- Property CRM + 200+ properties managed 100% inside Odoo  
-- Agent portal & client inquiry workflow  
-- GHS pricing & multi-currency  
-- M-Pesa ready + responsive website (Tailwind + QWeb)  
-- Client testimonial: “We replaced 3 separate tools with one Odoo instance”
-
-#### 2. Kenya M-Pesa Payment Acquirer (Odoo 17/18) — **New in this repo** (coming in next commit)
-- Full STK Push, C2B, B2C, Reversal & Confirmation webhooks  
-- Automatic invoice reconciliation  
-- Kenyan tax (KRA) handling & eTIMS-ready invoices  
-- Works with Sales, POS, eCommerce & Invoicing
-
-#### 3. Advanced Features Demonstrated (prowess proof)
-- Model inheritance & delegation  
-- Computed fields + @api.depends  
-- Wizards, scheduled actions & automated workflows  
-- Custom payment provider (payment_acquirer base)  
-- REST API controllers + webhook security  
-- QWeb reports + PDF customization  
-- Multi-company, multi-currency, multi-language  
-- Docker + GitHub Actions CI/CD  
-- Full security groups & record rules
-
-### Tech Stack
-- **Odoo** 16 / 17 / 18 (Enterprise-ready code)  
-- **Python** 3.10+ | PostgreSQL | Nginx  
-- **M-Pesa** Daraja API (STK Push + callbacks)  
-- **Docker** + **docker-compose** (one-click dev environment)  
-- **Tailwind CSS** + **QWeb** for beautiful frontends
 
 ### Quick Start (Local Demo in 60 seconds)
 <img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/470e0340-91cc-4b02-ac1d-edd4f574bfa5" />
