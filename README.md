@@ -40,7 +40,8 @@ I deliver **full-cycle Odoo solutions** — from requirements to live deployment
 
 ### Quick Start (Local Demo in 60 seconds)
 <img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/470e0340-91cc-4b02-ac1d-edd4f574bfa5" />
-<img width="1365" height="609" alt="image" src="https://github.com/user-attachments/assets/4cffa38b-15db-420c-a1b7-9e073fe7273d" />
+<img width="1357" height="609" alt="image" src="https://github.com/user-attachments/assets/23d93c6e-f333-4530-8cca-10f54df5aa17" />
+
 
 
 
