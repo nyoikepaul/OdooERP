@@ -41,3 +41,7 @@ Accounting
 Docker 
 <img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/0a97df41-c0de-4b65-928e-a7a670341a11" />
 
+Reverse proxy 
+<img width="1366" height="725" alt="image" src="https://github.com/user-attachments/assets/2cc89171-9971-4c58-9ef3-d32bef7704d8" />
+
+
