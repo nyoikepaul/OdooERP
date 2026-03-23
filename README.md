@@ -1,4 +1,4 @@
-# OdooERP - Kenya Mastery Showcase 🚀
+# OdooERP 
 
 **Odoo 18 + Full Kenya Localization**  
 M-Pesa Payments • KRA eTIMS Real-Time Invoicing • Real Estate CRM • Custom Workflows
