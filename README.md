@@ -1,4 +1,3 @@
-
 # OdooERP Kenya 
 
 **Odoo 18 Community + Full Kenya Localization**  
