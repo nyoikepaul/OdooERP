@@ -1,7 +1,7 @@
  OdooERP Kenya 
 
-**Odoo 18 Community + Full Kenya Localization**  
-**M-Pesa Daraja • KRA eTIMS OSCU • Real Estate CRM**
+Odoo 18 Community + Full Kenya Localization
+M-Pesa Daraja • KRA eTIMS OSCU • Real Estate CRM
 
 ![Odoo](https://img.shields.io/badge/Odoo-18.0-4A4A4A?style=for-the-badge&logo=odoo) 
 ![M-Pesa](https://img.shields.io/badge/M--Pesa-Daraja-00A651?style=for-the-badge) 
