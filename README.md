@@ -8,7 +8,7 @@ M-Pesa Daraja • KRA eTIMS OSCU • Real Estate CRM
 ![KRA eTIMS](https://img.shields.io/badge/KRA-eTIMS-FF6600?style=for-the-badge) 
 ![Kenya](https://img.shields.io/badge/Made_for_Kenya-00A651?style=for-the-badge)
 
-### Features
+ Features
 - ✅ **Full M-Pesa Integration** (`kenya_mpesa_acquirer` + `mpesa_connector` + `mpesa_integration`)
 - ✅ **Official KRA eTIMS OSCU** (real-time invoice submission via Odoo KE LTD – no hardware needed)
 - ✅ Kenya taxes, VAT, withholding tax, PIN validation
@@ -16,7 +16,7 @@ M-Pesa Daraja • KRA eTIMS OSCU • Real Estate CRM
 - ✅ Docker-first setup (ready in 60 seconds)
 - ✅ Beautiful custom theme
 
-### Quick Start (Docker)
+ Quick Start (Docker)
 
 bash
 git clone https://github.com/nyoikepaul/OdooERP.git
