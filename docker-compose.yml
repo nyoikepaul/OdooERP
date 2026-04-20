@@ -1,34 +1,39 @@
 services:
   db:
     image: postgres:16
-    container_name: odooerp-db-1
+    container_name: odooerp-db
+    restart: unless-stopped
     environment:
-      - POSTGRES_USER=odoo
-      - POSTGRES_PASSWORD=your_secure_password   # CHANGE THIS TO A STRONG PASSWORD!
+      POSTGRES_DB: ${POSTGRES_DB:-odoo}
+      POSTGRES_USER: ${POSTGRES_USER:-odoo}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
     volumes:
       - odoo-db-data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD", "pg_isready", "-U", "odoo"]
-      interval: 5s
+      test: ["CMD", "pg_isready", "-U", "${POSTGRES_USER:-odoo}"]
+      interval: 10s
       timeout: 5s
       retries: 10
 
   web:
     image: odoo:18.0
-    container_name: odooerp-web-1
+    container_name: odooerp-web
+    restart: unless-stopped
     depends_on:
       db:
         condition: service_healthy
     ports:
       - "8069:8069"
+      - "8072:8072"
     environment:
-      - HOST=db
-      - USER=odoo
-      - PASSWORD=your_secure_password   # MUST match the one above
+      HOST: ${ODOO_DB_HOST:-db}
+      USER: ${ODOO_DB_USER:-odoo}
+      PASSWORD: ${ODOO_DB_PASSWORD:?Set ODOO_DB_PASSWORD in .env}
     volumes:
       - odoo-web-data:/var/lib/odoo
       - ./addons:/mnt/extra-addons
-    restart: unless-stopped
+      - ./custom_addons:/mnt/custom-addons
+      - ./config/odoo.conf:/etc/odoo/odoo.conf:ro
 
 volumes:
   odoo-db-data:
