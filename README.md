@@ -19,7 +19,7 @@ M-Pesa Daraja • KRA eTIMS OSCU • Real Estate CRM
  Quick Start (Docker)
 
 bash
-git clone https://github.com/Daniel815266/OdooERP.git
+git clone https://github.com/NyoikePaul/OdooERP.git
 cd OdooERP
 docker compose up -d
 
