@@ -4,7 +4,7 @@
     'category': 'Accounting/Payment',
     'summary': 'High-security API kernel for Kenyan payment gateways.',
     'author': 'Paul Nyoike - Nairobi',
-    'website': 'https://github.com/Daniel815266/OdooERP',
+    'website': 'https://github.com/NyoikePaul/OdooERP',
     'depends': ['base', 'account'],
     'data': [
         'security/ir.model.access.csv',

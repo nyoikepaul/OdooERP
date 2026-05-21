@@ -9,7 +9,7 @@
     </div>""",
     'author': "Paul Nyoike - Nairobi",
     'website': "https://github.com/nyoikepaul",
-    'depends': ['payment'],
+    'depends': ['payment', 'mpesa_connector'],
     'data': [
         'security/ir.model.access.csv',
         'views/payment_provider_views.xml',

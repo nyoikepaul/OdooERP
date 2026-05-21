@@ -4,7 +4,7 @@
     'category': 'Accounting/Payment',
     'summary': 'Core M-Pesa Daraja API kernel.',
     'author': 'Paul Nyoike - Nairobi',
-    'website': 'https://github.com/Daniel815266/OdooERP',
+    'website': 'https://github.com/NyoikePaul/OdooERP',
     'depends': ['account', 'payment'],
     'data': [
         'security/ir.model.access.csv',

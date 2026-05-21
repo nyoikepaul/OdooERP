@@ -6,10 +6,10 @@
         <field name="inherit_id" ref="payment.payment_provider_form"/>
         <field name="arch" type="xml">
             <xpath expr="//field[@name='code']" position="after">
-                <field name="mpesa_consumer_key" attrs="{'invisible': [('code', '!=', 'mpesa')]}"/>
-                <field name="mpesa_consumer_secret" attrs="{'invisible': [('code', '!=', 'mpesa')]}"/>
-                <field name="mpesa_shortcode" attrs="{'invisible': [('code', '!=', 'mpesa')]}"/>
-                <field name="mpesa_passkey" attrs="{'invisible': [('code', '!=', 'mpesa')]}"/>
+                <field name="mpesa_consumer_key" invisible="code != 'mpesa'"/>
+                <field name="mpesa_consumer_secret" invisible="code != 'mpesa'"/>
+                <field name="mpesa_shortcode" invisible="code != 'mpesa'"/>
+                <field name="mpesa_passkey" invisible="code != 'mpesa'"/>
             </xpath>
         </field>
     </record>
