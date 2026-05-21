@@ -10,6 +10,7 @@
         'security/ir.model.access.csv',
         'views/property_views.xml',
         'views/lease_views.xml',
+        'data/sequences.xml',
         'views/menu_views.xml',
     ],
     'installable': True,

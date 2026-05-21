@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo><!-- M-Pesa Integration views --></odoo>
+<odoo>
+  <record id="mpesa_transaction_view_list" model="ir.ui.view">
+    <field name="name">mpesa.transaction.list</field>
+    <field name="model">mpesa.transaction</field>
+    <field name="arch" type="xml">
+      <list string="M-Pesa Transactions" decoration-success="status=='success'"
+            decoration-danger="status=='failed'" decoration-muted="status=='cancelled'">
+        <field name="create_date"/>
+        <field name="receipt_number"/>
+        <field name="phone"/>
+        <field name="amount"/>
+        <field name="status"/>
+        <field name="invoice_id"/>
+      </list>
+    </field>
+  </record>
+
+  <record id="mpesa_transaction_action" model="ir.actions.act_window">
+    <field name="name">M-Pesa Transactions</field>
+    <field name="res_model">mpesa.transaction</field>
+    <field name="view_mode">list,form</field>
+  </record>
+
+  <menuitem id="menu_mpesa_root" name="M-Pesa" sequence="55"/>
+  <menuitem id="menu_mpesa_transactions" name="Transactions"
+            parent="menu_mpesa_root" action="mpesa_transaction_action"/>
+</odoo>
