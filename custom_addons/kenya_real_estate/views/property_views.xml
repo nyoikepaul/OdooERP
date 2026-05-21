@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="estate_property_view_list" model="ir.ui.view">
+    <field name="name">estate.property.list</field>
+    <field name="model">estate.property</field>
+    <field name="arch" type="xml">
+      <list string="Properties" decoration-success="status=='available'"
+            decoration-info="status=='leased'" decoration-muted="status=='sold'">
+        <field name="ref"/>
+        <field name="name"/>
+        <field name="property_type"/>
+        <field name="location"/>
+        <field name="county"/>
+        <field name="monthly_rent"/>
+        <field name="status"/>
+        <field name="lease_count"/>
+      </list>
+    </field>
+  </record>
+
+  <record id="estate_property_view_form" model="ir.ui.view">
+    <field name="name">estate.property.form</field>
+    <field name="model">estate.property</field>
+    <field name="arch" type="xml">
+      <form string="Property">
+        <header>
+          <button name="%(kenya_real_estate.estate_lease_action)d"
+                  string="New Lease" type="action" class="oe_highlight"/>
+          <field name="status" widget="statusbar"
+                 statusbar_visible="available,leased,sold"/>
+        </header>
+        <sheet>
+          <div class="oe_button_box" name="button_box">
+            <button name="lease_ids" type="object" class="oe_stat_button" icon="fa-home">
+              <field name="lease_count" widget="statinfo" string="Leases"/>
+            </button>
+          </div>
+          <group>
+            <group>
+              <field name="name"/>
+              <field name="ref"/>
+              <field name="property_type"/>
+              <field name="landlord_id"/>
+            </group>
+            <group>
+              <field name="location"/>
+              <field name="county"/>
+              <field name="size_sqft"/>
+              <field name="bedrooms"/>
+              <field name="bathrooms"/>
+            </group>
+          </group>
+          <group string="Pricing">
+            <field name="monthly_rent"/>
+            <field name="sale_price"/>
+            <field name="currency_id"/>
+          </group>
+          <notebook>
+            <page string="Leases">
+              <field name="lease_ids" readonly="1"/>
+            </page>
+            <page string="Description">
+              <field name="description"/>
+            </page>
+          </notebook>
+        </sheet>
+        <chatter/>
+      </form>
+    </field>
+  </record>
+
+  <record id="estate_property_action" model="ir.actions.act_window">
+    <field name="name">Properties</field>
+    <field name="res_model">estate.property</field>
+    <field name="view_mode">list,form</field>
+  </record>
+</odoo>
